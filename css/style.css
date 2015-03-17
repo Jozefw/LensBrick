@@ -91,6 +91,11 @@ footer {
   padding: 8px 25px 25px 25px;
   font-size: 1.5rem;
   z-index: 10;
+   user-select: none;
+   -o-user-select:none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;  
 }
 
 .navBtn {
@@ -101,11 +106,6 @@ footer {
   color: #0FA0CE;
   cursor: pointer;
   cursor: hand;
-  user-select: none;
-  -o-user-select:none;
-  -moz-user-select: none;
-  -khtml-user-select: none;
-  -webkit-user-select: none;
 }
 
 
